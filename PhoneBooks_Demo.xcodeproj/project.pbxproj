@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847DBE731D1BC29000093424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DBE721D1BC29000093424 /* main.m */; };
+		847DBE761D1BC29000093424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DBE751D1BC29000093424 /* AppDelegate.m */; };
+		847DBE791D1BC29000093424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DBE781D1BC29000093424 /* ViewController.m */; };
+		847DBE7C1D1BC29100093424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847DBE7A1D1BC29100093424 /* Main.storyboard */; };
+		847DBE7E1D1BC29100093424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847DBE7D1D1BC29100093424 /* Assets.xcassets */; };
+		847DBE811D1BC29100093424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847DBE7F1D1BC29100093424 /* LaunchScreen.storyboard */; };
+		847DBE8C1D1BC29100093424 /* PhoneBooks_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DBE8B1D1BC29100093424 /* PhoneBooks_DemoTests.m */; };
+		847DBE971D1BC29100093424 /* PhoneBooks_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DBE961D1BC29100093424 /* PhoneBooks_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847DBE881D1BC29100093424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847DBE661D1BC29000093424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847DBE6D1D1BC29000093424;
+			remoteInfo = PhoneBooks_Demo;
+		};
+		847DBE931D1BC29100093424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847DBE661D1BC29000093424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847DBE6D1D1BC29000093424;
+			remoteInfo = PhoneBooks_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847DBE6E1D1BC29000093424 /* PhoneBooks_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneBooks_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DBE721D1BC29000093424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847DBE741D1BC29000093424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		847DBE751D1BC29000093424 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		847DBE771D1BC29000093424 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		847DBE781D1BC29000093424 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		847DBE7B1D1BC29100093424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847DBE7D1D1BC29100093424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847DBE801D1BC29100093424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847DBE821D1BC29100093424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847DBE871D1BC29100093424 /* PhoneBooks_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneBooks_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DBE8B1D1BC29100093424 /* PhoneBooks_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneBooks_DemoTests.m; sourceTree = "<group>"; };
+		847DBE8D1D1BC29100093424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847DBE921D1BC29100093424 /* PhoneBooks_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneBooks_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DBE961D1BC29100093424 /* PhoneBooks_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneBooks_DemoUITests.m; sourceTree = "<group>"; };
+		847DBE981D1BC29100093424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847DBE6B1D1BC29000093424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DBE841D1BC29100093424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DBE8F1D1BC29100093424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847DBE651D1BC29000093424 = {
+			isa = PBXGroup;
+			children = (
+				847DBE701D1BC29000093424 /* PhoneBooks_Demo */,
+				847DBE8A1D1BC29100093424 /* PhoneBooks_DemoTests */,
+				847DBE951D1BC29100093424 /* PhoneBooks_DemoUITests */,
+				847DBE6F1D1BC29000093424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847DBE6F1D1BC29000093424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847DBE6E1D1BC29000093424 /* PhoneBooks_Demo.app */,
+				847DBE871D1BC29100093424 /* PhoneBooks_DemoTests.xctest */,
+				847DBE921D1BC29100093424 /* PhoneBooks_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847DBE701D1BC29000093424 /* PhoneBooks_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				847DBE741D1BC29000093424 /* AppDelegate.h */,
+				847DBE751D1BC29000093424 /* AppDelegate.m */,
+				847DBE771D1BC29000093424 /* ViewController.h */,
+				847DBE781D1BC29000093424 /* ViewController.m */,
+				847DBE7A1D1BC29100093424 /* Main.storyboard */,
+				847DBE7D1D1BC29100093424 /* Assets.xcassets */,
+				847DBE7F1D1BC29100093424 /* LaunchScreen.storyboard */,
+				847DBE821D1BC29100093424 /* Info.plist */,
+				847DBE711D1BC29000093424 /* Supporting Files */,
+			);
+			path = PhoneBooks_Demo;
+			sourceTree = "<group>";
+		};
+		847DBE711D1BC29000093424 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847DBE721D1BC29000093424 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847DBE8A1D1BC29100093424 /* PhoneBooks_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				847DBE8B1D1BC29100093424 /* PhoneBooks_DemoTests.m */,
+				847DBE8D1D1BC29100093424 /* Info.plist */,
+			);
+			path = PhoneBooks_DemoTests;
+			sourceTree = "<group>";
+		};
+		847DBE951D1BC29100093424 /* PhoneBooks_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847DBE961D1BC29100093424 /* PhoneBooks_DemoUITests.m */,
+				847DBE981D1BC29100093424 /* Info.plist */,
+			);
+			path = PhoneBooks_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847DBE6D1D1BC29000093424 /* PhoneBooks_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DBE9B1D1BC29100093424 /* Build configuration list for PBXNativeTarget "PhoneBooks_Demo" */;
+			buildPhases = (
+				847DBE6A1D1BC29000093424 /* Sources */,
+				847DBE6B1D1BC29000093424 /* Frameworks */,
+				847DBE6C1D1BC29000093424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneBooks_Demo;
+			productName = PhoneBooks_Demo;
+			productReference = 847DBE6E1D1BC29000093424 /* PhoneBooks_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847DBE861D1BC29100093424 /* PhoneBooks_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DBE9E1D1BC29100093424 /* Build configuration list for PBXNativeTarget "PhoneBooks_DemoTests" */;
+			buildPhases = (
+				847DBE831D1BC29100093424 /* Sources */,
+				847DBE841D1BC29100093424 /* Frameworks */,
+				847DBE851D1BC29100093424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847DBE891D1BC29100093424 /* PBXTargetDependency */,
+			);
+			name = PhoneBooks_DemoTests;
+			productName = PhoneBooks_DemoTests;
+			productReference = 847DBE871D1BC29100093424 /* PhoneBooks_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847DBE911D1BC29100093424 /* PhoneBooks_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DBEA11D1BC29100093424 /* Build configuration list for PBXNativeTarget "PhoneBooks_DemoUITests" */;
+			buildPhases = (
+				847DBE8E1D1BC29100093424 /* Sources */,
+				847DBE8F1D1BC29100093424 /* Frameworks */,
+				847DBE901D1BC29100093424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847DBE941D1BC29100093424 /* PBXTargetDependency */,
+			);
+			name = PhoneBooks_DemoUITests;
+			productName = PhoneBooks_DemoUITests;
+			productReference = 847DBE921D1BC29100093424 /* PhoneBooks_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847DBE661D1BC29000093424 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					847DBE6D1D1BC29000093424 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 36P246WWQC;
+					};
+					847DBE861D1BC29100093424 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 847DBE6D1D1BC29000093424;
+					};
+					847DBE911D1BC29100093424 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 847DBE6D1D1BC29000093424;
+					};
+				};
+			};
+			buildConfigurationList = 847DBE691D1BC29000093424 /* Build configuration list for PBXProject "PhoneBooks_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847DBE651D1BC29000093424;
+			productRefGroup = 847DBE6F1D1BC29000093424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847DBE6D1D1BC29000093424 /* PhoneBooks_Demo */,
+				847DBE861D1BC29100093424 /* PhoneBooks_DemoTests */,
+				847DBE911D1BC29100093424 /* PhoneBooks_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847DBE6C1D1BC29000093424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DBE811D1BC29100093424 /* LaunchScreen.storyboard in Resources */,
+				847DBE7E1D1BC29100093424 /* Assets.xcassets in Resources */,
+				847DBE7C1D1BC29100093424 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DBE851D1BC29100093424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DBE901D1BC29100093424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847DBE6A1D1BC29000093424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DBE791D1BC29000093424 /* ViewController.m in Sources */,
+				847DBE761D1BC29000093424 /* AppDelegate.m in Sources */,
+				847DBE731D1BC29000093424 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DBE831D1BC29100093424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DBE8C1D1BC29100093424 /* PhoneBooks_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DBE8E1D1BC29100093424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DBE971D1BC29100093424 /* PhoneBooks_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847DBE891D1BC29100093424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847DBE6D1D1BC29000093424 /* PhoneBooks_Demo */;
+			targetProxy = 847DBE881D1BC29100093424 /* PBXContainerItemProxy */;
+		};
+		847DBE941D1BC29100093424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847DBE6D1D1BC29000093424 /* PhoneBooks_Demo */;
+			targetProxy = 847DBE931D1BC29100093424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847DBE7A1D1BC29100093424 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DBE7B1D1BC29100093424 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847DBE7F1D1BC29100093424 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DBE801D1BC29100093424 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847DBE991D1BC29100093424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		847DBE9A1D1BC29100093424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847DBE9C1D1BC29100093424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhoneBooks_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PhoneBooks-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		847DBE9D1D1BC29100093424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhoneBooks_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PhoneBooks-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		847DBE9F1D1BC29100093424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoneBooks_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PhoneBooks-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneBooks_Demo.app/PhoneBooks_Demo";
+			};
+			name = Debug;
+		};
+		847DBEA01D1BC29100093424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoneBooks_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PhoneBooks-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneBooks_Demo.app/PhoneBooks_Demo";
+			};
+			name = Release;
+		};
+		847DBEA21D1BC29100093424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoneBooks_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PhoneBooks-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneBooks_Demo;
+			};
+			name = Debug;
+		};
+		847DBEA31D1BC29100093424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoneBooks_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PhoneBooks-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneBooks_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847DBE691D1BC29000093424 /* Build configuration list for PBXProject "PhoneBooks_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DBE991D1BC29100093424 /* Debug */,
+				847DBE9A1D1BC29100093424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847DBE9B1D1BC29100093424 /* Build configuration list for PBXNativeTarget "PhoneBooks_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DBE9C1D1BC29100093424 /* Debug */,
+				847DBE9D1D1BC29100093424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847DBE9E1D1BC29100093424 /* Build configuration list for PBXNativeTarget "PhoneBooks_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DBE9F1D1BC29100093424 /* Debug */,
+				847DBEA01D1BC29100093424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847DBEA11D1BC29100093424 /* Build configuration list for PBXNativeTarget "PhoneBooks_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DBEA21D1BC29100093424 /* Debug */,
+				847DBEA31D1BC29100093424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847DBE661D1BC29000093424 /* Project object */;
+}
